@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Configurações básicas da página -->
+        <meta charset="UTF-8">
+        <title>Vision Eventos</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <!-- Cabeçalho com logo e título -->
+        <header>
+            <img src="logo.png" alt="Logo da Vision Eventos">
+            <h1>Vision Eventos</h1>
+        </header>
+        
+        <!-- Conteúdo principal - Confirmação de presença -->
+        <main>
+            <!-- Título do evento -->
+            <h2>Trabalho Oficina de Programação</h2>
+            
+            <!-- Mensagem de sucesso -->
+            <p>Presença confirmada com sucesso!</p>
+            <p>Dados:</p>
+            
+            <!-- Lista com dados do usuário (preenchidos por JS) -->
+            <ul>
+                <li>NOME - <span id="nomeExibido"></span></li>
+                <li>TELEFONE - <span id="telefoneExibido"></span></li>
+            </ul>
+           
+            <p>Obrigado por confirmar. Esperamos você no evento!</p>
+            <p>Endereço do evento:</p>
+            
+            <!-- Mapa do Google Maps embed -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=..." 
+              width="600" height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            
+            <!-- Botão para cancelar presença -->
+            <a href="cancelar.html">
+                <button>Desmarcar Presença</button>
+            </a>
+        </main>
+        
+        <!-- Rodapé com infos da empresa -->
+        <footer>
+            <p><strong>Vision Eventos</strong></p>
+            <p>A <strong>Vision Eventos</strong> é uma empresa especializada... <!-- texto completo --></p>
+            <p>contato@vision.com | (62) 9 9999-9999</p>
+            <p>© 2026 Vision Eventos. Todos os direitos reservados.</p>
+        </footer>
+        
+        <!-- Script JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>

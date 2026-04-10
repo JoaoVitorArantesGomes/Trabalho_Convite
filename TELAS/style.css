@@ -1,0 +1,175 @@
+/* Importa fonte Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilo geral do body - layout centralizado */
+body {
+  background-color: #0a1628;      /* Fundo azul escuro */
+  font-family: 'Poppins', sans-serif;
+  color: #e8f1ff;                /* Texto claro */
+  
+  display: flex;
+  flex-direction: column;        /* Layout vertical */
+  align-items: center;           /* Centraliza conteúdo */
+  
+  min-height: 100vh;             /* Altura mínima tela cheia */
+  padding: 2em 1em;              /* Espaçamento interno */
+  margin: 0;
+}
+
+/* Header - logo + título */
+header {
+  width: 100%;
+  max-width: 600px;              /* Largura máxima */
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;                      /* Espaço entre logo e título */
+
+  padding: 1.5em 0;
+  border-bottom: 2px solid #64b5f6;  /* Linha azul embaixo */
+  margin-bottom: 2em;
+}
+
+/* Logo */
+img {
+  width: 140px;
+  height: auto;
+}
+
+/* Título principal H1 */
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #64b5f6;                /* Azul claro */
+}
+
+/* Container principal do conteúdo */
+main {
+  width: 100%;
+  max-width: 600px;
+  background-color: #112240;     /* Fundo mais claro */
+  border-radius: 10px;           
+  border: 1px solid #64b5f6;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Títulos H2 */
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #64b5f6;                /* Azul claro */
+  margin-bottom: 1rem;
+}
+
+/* Parágrafos */
+p {
+  font-size: 0.95em;
+  line-height: 1.7;              /* Espaçamento entre linhas */
+  margin-bottom: 0.5em;
+}
+
+/* Lista sem marcadores */
+ul {
+  list-style: none;              /* Remove bullets */
+  padding: 0;
+  margin: 1em 0;
+}
+
+/* Itens da lista */
+li {
+  background-color: #0a1628;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  border-left: 3px solid #64b5f6;  /* Barra azul esquerda */
+}
+
+/* Formulário */
+form {
+  width: 100%;
+  padding: 0 2em 1.5em 0;
+  margin-bottom: 1.5em;
+  background-color: transparent;  
+  border: none;                 
+  box-sizing: border-box;         
+}
+
+/* Labels dos inputs */
+label {
+  display: block;
+  font-size: 0.85em;
+  color: #8899aa;                /* Cinza claro */
+  margin-bottom: 0.3em;
+}
+
+/* Campos de input */
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 0.7em 1em;
+  background-color: #0a1628;
+  border: 1px solid #8899aa;
+  border-radius: 6px;
+  color: #e8f1ff;                /* Texto branco */
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+  margin-bottom: 1.2em;
+  outline: none;                 /* Remove borda foco padrão */
+}
+
+input:focus {
+  border-color: #64b5f6;         /* Borda azul no foco */
+}
+
+input::placeholder {
+  color: #8899aa;                /* Placeholder cinza */
+}
+
+/* Botões */
+button {
+  background-color: #64b5f6;     /* Azul principal */
+  color: #0a1628;                /* Texto escuro */
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;               /* Cursor mão */
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+
+button:hover {
+  background-color: #90caf9;     /* Azul mais claro no hover */
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  max-width: 600px;       
+  text-align: center;
+  padding: 1.5em 0;
+  margin-top: 1em;
+  border-top: 2px solid #64b5f6;   /* Linha azul em cima */
+  color: #8899aa;                  /* Cinza */
+  font-size: 0.85em;
+  line-height: 1.8;
+}
+
+footer strong {
+  color: #64b5f6;                  /* Destaque azul */
+  font-size: 1em;
+}
+
+/* Mapa iframe */
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 1em;
+}

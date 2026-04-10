@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Configurações básicas da página -->
+        <meta charset="UTF-8">
+        <title>Vision Eventos</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <!-- Cabeçalho com logo e título -->
+        <header>
+            <img src="logo.png" alt="Logo da Vision Eventos">
+            <h1>Vision Eventos</h1>
+        </header>
+        
+        <!-- Conteúdo principal - Formulário de cadastro -->
+        <main>
+            <!-- Título do evento -->
+            <h2>Trabalho Oficina de Programação</h2>
+         
+            <!-- Formulário de inscrição -->
+            <form>
+                <!-- Campo nome -->
+                <label>Nome:</label><br>
+                <input type="text" id="nome" placeholder="Digite o seu nome"><br><br>
+                
+                <!-- Campo telefone -->
+                <label>Telefone:</label><br>
+                <input type="tel" id="telefone" placeholder="Digite o seu telefone"><br><br>
+            </form>
+            
+            <!-- Botão voltar para página inicial -->
+            <a href="index.html">
+                <button>Voltar</button>
+            </a>
+            
+            <!-- Botão confirmar - chama função JS -->
+            <button onclick="confirmarPresenca()">Confirmar Presença</button>
+        </main>
+        
+        <!-- Rodapé com infos da empresa -->
+        <footer>
+            <p><strong>Vision Eventos</strong></p>
+            <p>A <strong>Vision Eventos</strong> é uma empresa especializada na criação... <!-- texto completo --></p>
+            <p>contato@vision.com | (62) 9 9999-9999</p>
+            <p>© 2026 Vision Eventos. Todos os direitos reservados.</p>
+        </footer>
+        
+        <!-- Script JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
